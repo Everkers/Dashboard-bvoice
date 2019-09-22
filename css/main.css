@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+body .costume-nav * {
+  color: #fff !important;
+}
+body .log {
+  margin: 1em auto;
+  width: 50%;
+  height: 250px;
+  max-height: 250px;
+  background-color: #ecebeb;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+@media screen and (max-width: 850px) {
+  body .log {
+    width: 80%;
+  }
+}
+body .log li.success {
+  color: #27ae60;
+}
+body .log li.failed {
+  color: #e74c3c;
+}
+body .log ul {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  padding: 0;
+  margin: 1em 0;
+}
+body .log ul li {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.header {
+  margin: 2em 0;
+  width: 100%;
+}
+.header h1 {
+  text-align: center;
+  max-width: 50%;
+}
+@media screen and (max-width: 850px) {
+  .header h1 {
+    max-width: none;
+    font-size: 25px;
+  }
+}
+
+#data_submit {
+  width: 100%;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */

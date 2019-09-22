@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    .costume-nav{
+        *{
+            color:#fff !important;
+        }
+    }
+    .log{
+        margin:1em auto;
+        width:50%;
+        height: 250px;
+        max-height: 250px;
+        background-color: #ecebeb;
+        overflow-y:auto;
+        border-radius: 10px;
+        @media screen and (max-width:850px){
+            width: 80%;
+        
+        }
+        li.success{
+            color:#27ae60;
+        }
+        li.failed{
+            color:#e74c3c;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-flow: wrap column;
+            align-items: center;
+            padding:0;
+            margin:1em 0;
+            li{
+                margin:1em 0;
+                text-align: center;
+            }
+        }
+    }
+}
+.header{
+    margin:2em 0;
+    width:100%;
+    h1{
+        text-align:center;
+        max-width:50%;
+        @media screen and (max-width:850px){
+            max-width:none;
+            font-size:25px;
+        }
+    }
+}
+#data_submit{
+    width:100%;
+    align-items: center;
+}

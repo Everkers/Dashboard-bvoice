@@ -15,7 +15,7 @@ form.onsubmit = (event)=>{
 }
 class dash{
     constructor(){
-        this.api_url_upload='http://recomanded-arrax.herokuapp.com/api/upload'
+        this.api_url_upload='https://recomanded-arrax.herokuapp.com/api/upload'
     }
     async addSong(obj){
         try{

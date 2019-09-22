@@ -10,7 +10,7 @@ form.onsubmit = (event)=>{
 }
 class dash{
     constructor(){
-        this.api_url_delete='http://recomanded-arrax.herokuapp.com/api/recomanded'
+        this.api_url_delete='https://recomanded-arrax.herokuapp.com/api/recomanded'
     }
     async delete(id){
         try{
